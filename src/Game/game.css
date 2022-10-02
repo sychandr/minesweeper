@@ -1,0 +1,9 @@
+.game-status {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}

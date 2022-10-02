@@ -1,0 +1,24 @@
+.cell {
+    align-items: center;
+    background: #2D9EE0;
+    border: 2px solid #e9e9e9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 4px;
+    width: 40px;
+}
+
+.cell--with-adjacent-mines {
+    background: #ef9923;
+}
+
+.cell--mine:not(.cell--closed) {
+    background: #222222;
+    border: 5px solid #f8586d;
+}
+
+.cell--closed {
+    background: #443A73;
+}
